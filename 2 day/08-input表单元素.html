@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>input表单元素</title>
+</head>
+<body>
+  <form>
+    <label for="username">用户名:</label>
+    <input type="text" name="username" id="username" value="请输入用户名" maxlength="10"> <br>
+  
+    <label for="password">密码:</label>
+    <input type="password" name="password" id="password"> <br>
+    性别:
+    <label for="man">男</label>
+    <input type="radio" name="sex" id="man" checked>
+    <label for="women">女</label>
+    <input type="radio" name="sex" id="women"> <br>
+  
+    爱好:
+    <label for="eat">吃饭</label>
+    <input type="checkbox" name="hobby" id="eat">
+    <label for="sleep">睡觉</label>
+    <input type="checkbox" name="hobby" id="sleep">
+    <label for="fight">打豆豆</label>
+    <input type="checkbox" name="hobby" id="fight"> <br>
+  
+    <input type="button" value="点我获取验证码">
+    <label for="phone"></label>
+    <input type="text" name="phone" id="phone"> <br>
+    
+    <input type="submit" value="点我提交">
+    <input type="reset" value="点我重置表单">
+  </form>
+</body>
+</html>
