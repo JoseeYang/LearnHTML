@@ -1,0 +1,33 @@
+body {
+    line-height: 28px;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: 'Microsoft YaHei', serif;
+    text-align: center;
+}
+
+form {text-align: center;}
+
+.header {
+    font-size: 10px;
+    color: grey;
+}
+
+.footer {
+    font-size: 10px;
+    color: grey;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.button {
+    font-weight: bold;
+}
+
+a {text-decoration-line: none;}
+
+p {text-indent: 2em;}
+
+.pic {text-align: center;}

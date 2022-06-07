@@ -1,0 +1,15 @@
+body {
+    color: #66CCFF;
+    /*对齐方式*/
+    text-align: left;
+    /*首行缩进2个当前文字大小*/
+    text-indent: 2em;
+    /*行间距*/
+    line-height: 25px;
+}
+
+h2 {
+    text-align: center;
+    /*添加下划线*/
+    text-decoration: underline;
+}
