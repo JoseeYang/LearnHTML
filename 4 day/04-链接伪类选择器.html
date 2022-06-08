@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>链接伪类选择器</title>
+  <style>
+    /*a:link 选择所有未被访问的链接*/
+    /*a:visited 选择所有的已被访问的链接*/
+    /*a:hover 选择鼠标指针位于其上的链接*/
+    /*a:active 选择活动链接(鼠标按下未弹起)*/
+    /*按照以上的顺序来书写*/
+    a:link {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: orange;
+    }
+    
+    a:hover {
+      color: #66CCFF;
+    }
+    
+    a:active {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <a href="#">小猪佩奇</a>
+</body>
+</html>
