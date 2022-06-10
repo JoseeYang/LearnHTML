@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>外边距合并</title>
+  <!--  当上下元素的都有边距的时候,会取较大的作为边距,这种情况叫做外边距合并,外边距合并只出现在上下元素-->
+  <style>
+    .one {
+      margin-bottom: 100px;
+      height: 200px;
+      width: 200px;
+      background-color: #66CCFF;
+    }
+    
+    .two {
+      height: 200px;
+      width: 200px;
+      margin-top: 200px;
+      background-color: #66CCFF;
+    }
+  </style>
+</head>
+<body>
+  <div class="one">1</div>
+  <div class="two">2</div>
+</body>
+</html>

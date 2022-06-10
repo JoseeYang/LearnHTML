@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS层叠性</title>
+  <style>
+    /*冲突的样式会以最新的样式进行展示*/
+    div {
+      color: pink;
+      font-size: 18px;
+    }
+    
+    div {
+      color: #ff6700;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    这是一段文字
+  </div>
+
+</body>
+</html>

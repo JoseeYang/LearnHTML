@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>边框的复合写法</title>
+  <style>
+    .div1 {
+      /*边框复合写法简写为边框大小 类型 颜色 (没有顺序)*/
+      width: 100px;
+      height: 100px;
+      border: 3px solid #66CCFF;
+    }
+    
+    .div2 {
+      /*边框可以分开设定*/
+      width: 100px;
+      height: 100px;
+      border-top: 10px solid red;
+      border-bottom: 5px dotted green;
+      border-left: 3px dashed #66CCFF;
+      border-right: 1px solid pink;
+    }
+  </style>
+</head>
+<body>
+  <div class="div1"></div>
+  <div class="div2"></div>
+</body>
+</html>

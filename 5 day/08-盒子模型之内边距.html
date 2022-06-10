@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>盒子模型之内边距</title>
+  <style>
+    div {
+      height: 200px;
+      width: 200px;
+      background-color: #66CCFF;
+      /*速记形式*/
+      /*跟一个值为上下左右*/
+      /*跟两个值a b为上下为a,左右为b*/
+      /*跟三个值a b c 为上a,左右为b,下为c  */
+      /*跟四个值a b c d 为上右下左*/
+      padding: 20px 15px 25px 10px;
+      /*内边距会撑开盒子,但是如果没有指定高度与宽度则不会撑开,利用此特性可以让父标签指定高度和宽度*/
+    }
+  </style>
+</head>
+<body>
+  <div>盒子里的内容盒子里的内容盒子里的内容盒子里的内容盒子里的内容盒子里的内容盒子里的内容盒子里的内容盒子里的内容盒子里的内容</div>
+</body>
+</html>
