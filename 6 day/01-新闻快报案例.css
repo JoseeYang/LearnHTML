@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.box {
+  height: 163px;
+  width: 248px;
+  border: 1px solid #cccccc;
+  margin: 100px auto;
+}
+
+.box .header {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 15px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dotted #cccccc;
+}
+
+.box .body {
+  height: 121px;
+  font-size: 12px;
+  line-height: 23px;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+
+.box .body a {
+  text-decoration-line: none;
+  color: #666666;
+}
+
+.box .body a:hover {
+  text-decoration-line: underline;
+}

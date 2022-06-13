@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>盒子阴影</title>
+  <style>
+    .box {
+      height: 200px;
+      width: 200px;
+      background-color: #66CCFF;
+      /*box-shadow:h-shadow v-shadow blur spread color inset*/
+      /*水平阴影位置 垂直阴影位置 模糊距离 阴影尺寸 阴影颜色 内外阴影(不允许写outset)*/
+    }
+    
+    .box:hover {
+      box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
