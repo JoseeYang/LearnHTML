@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>相对定位-父级有定位</title>
+  <style>
+    .grandfather {
+      position: relative;
+      width: 800px;
+      height: 800px;
+      background-color: hotpink;
+    }
+    
+    .father {
+      /*给父级添加一个除了默认定位之外的定位,就可以约束子元素的绝对定位*/
+      /*带定位的子元素会寻找父级中带有定位的父元素作为参考*/
+      /*绝对定位是脱标定位,不占有原来的位置*/
+      width: 500px;
+      height: 500px;
+      background-color: #66CCFF;
+    }
+    
+    .son {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 200px;
+      height: 200px;
+      background-color: #ff6700;
+    }
+  </style>
+</head>
+<body>
+  <div class="grandfather">
+    <div class="father">
+      <div class="son"></div>
+    </div>
+  </div>
+</body>
+</html>

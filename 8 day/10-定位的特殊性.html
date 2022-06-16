@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>定位的特殊性</title>
+  <style>
+    span {
+      /*给行内元素加了定位后就可以设置它的大小,不需要转换模式*/
+      position: absolute;
+      top: 150px;
+      width: 100px;
+      height: 100px;
+      background-color: #66CCFF;
+    }
+    
+    div {
+      /*给块级元素加了定位后,盒子的大小会变成内容的大小*/
+      position: absolute;
+      background-color: #ff6700;
+    }
+  </style>
+</head>
+<body>
+  <span>span</span>
+  <div>div</div>
+</body>
+</html>
