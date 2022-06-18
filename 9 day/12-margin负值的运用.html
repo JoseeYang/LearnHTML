@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>margin负值的运用</title>
+  <style>
+    ul li {
+      position: relative;
+      list-style: none;
+      float: left;
+      /*用margin负值的方式取消了边框重复的问题*/
+      margin-left: -1px;
+      width: 150px;
+      height: 200px;
+      border: 1px solid #66CCFF;
+    }
+    
+    /*若想让鼠标经过时四个边都显示出来有两种方法*/
+    /*1.若盒子没有添加定位,则使用相对定位*/
+    /*ul li:hover {*/
+    /*  position: relative;*/
+    /*  border: 1px solid red;*/
+    /*}*/
+    
+    /*2.若盒子存在定位,则用z-index提升等级*/
+    ul li:hover {
+      z-index: 1;
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+</body>
+</html>

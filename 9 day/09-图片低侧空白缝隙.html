@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>图片低侧空白缝隙</title>
+  <style>
+    div {
+      border: 1px solid red;
+    }
+    
+    div img {
+      /*1.只要让元素不是基线对齐就可以*/
+      /*2.转换为块级元素也可以*/
+      vertical-align: bottom;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img src="images/ldh.jpg" alt="">123456
+  </div>
+</body>
+</html>
