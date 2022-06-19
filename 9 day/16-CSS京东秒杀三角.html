@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS京东秒杀三角</title>
+  <style>
+    .box .price {
+      margin: 100px auto;
+      width: 160px;
+      height: 24px;
+      border: 1px solid red;
+      line-height: 24px;
+    }
+    
+    .box .kill {
+      position: relative;
+      float: left;
+      margin-right: 6px;
+      width: 90px;
+      height: 100%;
+      background-color: red;
+      text-align: center;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    
+    .box .kill i {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-color: transparent #ffffff transparent transparent;
+      border-style: solid;
+      border-width: 24px 12px 0 0;
+    }
+    
+    .box .origin {
+      font-size: 12px;
+      color: gray;
+      text-decoration-line: line-through;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="price">
+      <span class="kill">￥1920
+        <i></i>
+      </span>
+      <span class="origin">￥1080</span>
+    </div>
+  
+  </div>
+</body>
+</html>
