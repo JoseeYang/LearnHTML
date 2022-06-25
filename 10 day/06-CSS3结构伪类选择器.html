@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS3结构伪类选择器</title>
+  <style>
+    /*1.选择ul里面的第一个li*/
+    ul li:first-child {
+      background-color: #ff6700;
+    }
+    
+    /*2.选择ul里面的最后一个li*/
+    ul li:last-child {
+      background-color: red;
+    }
+    
+    /*3.选择ul里面的第二个li*/
+    ul li:nth-child(2) {
+      background-color: pink;
+    }
+    
+    /*E:first-of-type 指定类型E的第一个*/
+    /*E:last-of-type指定类型E的最后一个*/
+    /*E:nth-of-type(指定类型E的第n个)*/
+  </style>
+</head>
+<body>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+</body>
+</html>

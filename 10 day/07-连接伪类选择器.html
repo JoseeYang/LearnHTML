@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /*even是所有的偶数，odd为所有的奇数*/
+    ul li:nth-child(even) {
+      background-color: #ff6700;
+    }
+    
+    /*n为表达式，而可以为其他的内容，n从0开始计数 */
+    /*-n+3为前三个*/
+    ol li:nth-child(-n+3) {
+      background-color: #66CCFF;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+  <ol>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ol>
+</body>
+</html>

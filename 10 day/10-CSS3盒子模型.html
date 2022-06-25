@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS3盒子模型</title>
+  <style>
+    .one {
+      /*默认的盒子大小计算方式*/
+      box-sizing: content-box;
+      width: 200px;
+      height: 200px;
+      background-color: #66CCFF;
+      border: 10px solid red;
+      padding: 10px;
+    }
+    
+    .two {
+      /*CSS3新的盒子大小计算方式*/
+      box-sizing: border-box;
+      width: 200px;
+      height: 200px;
+      background-color: #66CCFF;
+      border: 10px solid red;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="one">小猪佩奇</div>
+  <div class="two">小猪佩奇</div>
+</body>
+</html>
