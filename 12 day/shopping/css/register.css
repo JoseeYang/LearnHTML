@@ -1,0 +1,49 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 84px;
+  border-bottom: 2px solid #c81523;
+}
+
+.logo {
+  padding-top: 18px;
+}
+
+.registerarea {
+  height: 522px;
+  border: 1px solid #cccccc;
+  margin-top: 20px;
+}
+
+.registerarea {
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #cccccc;
+  background-color: #ececec;
+}
+
+.registerarea p {
+  float: left;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.login {
+  float: right;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.login a {
+  color: #c81523;
+}
+
+.reg_form {
+  width: 600px;
+  background-color: pink;
+  margin: 0 auto;
+}
